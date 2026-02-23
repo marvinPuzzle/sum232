@@ -1,0 +1,26 @@
+{
+  "name": "sum232",
+  "version": "1.0.0",
+  "description": "sum numbers",
+  "homepage": "https://github.com/marvinPuzzle/sum232#readme",
+  "bugs": {
+    "url": "https://github.com/marvinPuzzle/sum232/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvinPuzzle/sum232.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
