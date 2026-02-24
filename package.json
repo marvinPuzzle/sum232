@@ -12,14 +12,15 @@
   },
   "license": "MIT",
   "author": "",
+  "type": "module",
   "exports": {
     ".": {
-      "import": "./index.mjs",
+      "import": "./index.js",
       "require": "./index.cjs",
       "types": "./index.d.ts"
     }
   },
-  "main": "index.js",
+  "main": "./index.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
