@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/marvinPuzzle/sum232/issues"
   },
+  "bin": {
+    "sum232": "./bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marvinPuzzle/sum232.git"
